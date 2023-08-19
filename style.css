@@ -25,36 +25,37 @@ body {
     font-size: 15px;
 }
 .parent  div {
-    width: calc(900px /3);
+    width: calc(750px /3);
     height: 500px;
-    padding: 20px;
+    padding: 20px 40px;
     display: flex;
     flex-direction: column;
 }
 .parent .left {
     background-color: var(--Bright-orange);
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 10px 0px 0px 10px;
 }
 .parent .middle {
     background-color: var(--Dark-cyan)
 }
 .parent .right {
     background-color: var(--Very-dark-cyan);
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 10px 10px 0px;
 }
 .parent div div {
     width: fit-content;
+    margin-left: -40px;
 }
 .parent div h1 {
     font-family: "Big Shoulders Display", sans-serif;
     font-weight: 700;
     font-size: 50px;
     color: var(--Transparent-white);
-    margin: -20px 0px 5px 18px;
+    margin: -20px 0px 5px 0px;
     text-transform: uppercase;
 }
 .parent div div:nth-child(3) {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     line-height: 1.6;
 }
 .parent div div:last-child button {
@@ -85,10 +86,10 @@ body {
         flex-direction: column;
     }
     .parent .left {
-        border-radius: 5px 5px 0px 0px;
+        border-radius: 10px 10px 0px 0px;
     }
     .parent .right {
-        border-radius: 0px 0px 5px 5px;
+        border-radius: 0px 0px 10px 10px;
     }
     .attribution {
         bottom: -95% !important;
